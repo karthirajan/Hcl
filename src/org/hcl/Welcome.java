@@ -1,6 +1,6 @@
 package org.hcl;
 
-<<<<<<< HEAD
+
 public class Welcome extends Java {
 	public void test1() {
 		System.out.println("test1");
@@ -8,7 +8,7 @@ public class Welcome extends Java {
 	public void test3() {
 		System.out.println("test2");
 		System.out.println("i made some changes");
-=======
+	}
 public class Welcome {
 	public static void main(String[] args) {
 		String s="Welcome to Greens Technology";
@@ -17,12 +17,13 @@ public class Welcome {
 			System.out.println(s2[i]);
 			
 		}
->>>>>>> 60560c8a467a49fdeb695bf2414bdfddb35a6849
+
 	}
 	public static void main(String[] args) {
-	
 
 		Welcome w=new Welcome();
-		w.companyName("Renu");
+		w.companyName("ASAR");
+		w.test4("i did ");
 	}
+}
 }
