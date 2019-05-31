@@ -1,16 +1,17 @@
 package org.hcl;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Java {
-	public void test3() {
-		System.out.println("test3");
+	public static void main(String[] args) {
+		List li=new ArrayList<>();
+		li.add(10);
+		li.add(20);
+		li.add(30);
+		System.out.println(li);
+	}
 		
 
 	}
-	public void test4() {
-		System.out.println("test4");
-		System.out.println("i did");
-		
-
-	}
-
-}
+	
