@@ -1,5 +1,6 @@
 package org.hcl;
 
+
 public class Welcome extends Java {
 	public void test1() {
 		System.out.println("test1");
@@ -17,4 +18,5 @@ public class Welcome extends Java {
 		w.empID();
 		w.companyName("Renu");
 	}
-}
+	}
+
