@@ -7,7 +7,7 @@ public class Welcome {
 
 	}
 public void empname() {
-	System.out.println("name is sivapriya");
+	System.out.println("asar");
 }
 
 }
