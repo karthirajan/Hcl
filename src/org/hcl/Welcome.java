@@ -6,11 +6,8 @@ public class Welcome {
 		
 
 	}
-	public void test3() {
-		System.out.println("test2");
-		System.out.println("i made some changes");
-		
-
-	}
+public void empname() {
+	System.out.println("name is sivapriya");
+}
 
 }
