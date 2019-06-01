@@ -17,13 +17,12 @@ public class Java {
 		System.out.println("test4");
 		System.out.println("i did");	
 	}
-<<<<<<< HEAD
-	
+//<<<<<<< HEAD	
 	public void test5() {
 System.out.println("test5");
 	}
 
-=======
+//=======
 	public void compID(int id) {
 		System.out.println("company id is" + id);
 	}
@@ -32,14 +31,23 @@ System.out.println("test5");
 		System.out.println("NetSal\t"+NetSal+"\tSerial no\t"+Serialno+"\tLocation\t"+location);
 	}
 	
+	// Code added by suba
+	public void Display()
+	{
+		System.out.println("Method of Suba");
+	}
+	
+	
 	public static void main(String[] args) {
 		Java c=new Java();
 		c.companyName("ACL");
 		c.companyName(5465, 4612312f);
 		c.companyName(5465, 5, "Chennai");
 		c.compID(7);
+		
+		c.Display();
 	}
 			
->>>>>>> 817788117578d9f353b8565f810a17ed5fc15c49
+//>>>>>>> 817788117578d9f353b8565f810a17ed5fc15c49
 }
 
