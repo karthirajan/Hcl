@@ -13,10 +13,16 @@ public class Welcome extends Java {
 		System.out.println("employee method");
 
 	}
+<<<<<<< HEAD
+	
+	public void test6() {
+		System.out.println("test6");
+=======
 	public static void main(String[] args) {
 		Welcome w=new Welcome();
 		w.empID();
 		w.companyName("Renu");
 	}
+>>>>>>> 817788117578d9f353b8565f810a17ed5fc15c49
 	}
 

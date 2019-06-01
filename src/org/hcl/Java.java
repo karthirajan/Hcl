@@ -17,6 +17,13 @@ public class Java {
 		System.out.println("test4");
 		System.out.println("i did");	
 	}
+<<<<<<< HEAD
+	
+	public void test5() {
+System.out.println("test5");
+	}
+
+=======
 	public void compID(int id) {
 		System.out.println("company id is" + id);
 	}
@@ -33,5 +40,6 @@ public class Java {
 		c.compID(7);
 	}
 			
+>>>>>>> 817788117578d9f353b8565f810a17ed5fc15c49
 }
 
